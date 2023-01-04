@@ -1,0 +1,13 @@
+2023-01-03 21:50:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "DELETE FROM [*]user WHERE id = ?"; ожидалось "identifier"
+Syntax error in SQL statement "DELETE FROM [*]user WHERE id = ?"; expected "identifier"; SQL statement:
+DELETE FROM user WHERE id = ? [42001-212]
+2023-01-04 19:04:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Ошибка преобразования данных при конвертации "MARS"
+Data conversion error converting "MARS" [22018-212]
+2023-01-04 19:04:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Ошибка преобразования данных при конвертации "MARS"
+Data conversion error converting "MARS" [22018-212]
+2023-01-04 19:07:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Ошибка преобразования данных при конвертации "MARS"
+Data conversion error converting "MARS" [22018-212]
